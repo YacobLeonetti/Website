@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    margin-top: 160px;
+}
+
+.intro {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+
+.infoonme {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.hummingbird {
+    height: 675px;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 900px;
+    border-radius: 13px;
+    border: 2px solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.west {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+
+.hum {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+
+.warbler {
+    height: 350px;
+    max-width: 500px;
+    border-radius: 13px;
+    
+    border: 2px solid white;
+    
+}
+
+.western {
+    height: 350px;
+    max-width: 700px;
+    width: 445px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+
+.Hawaii {
+    height: 350px;
+    max-width: 500px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+
+.stars {
+    height: 350px;  
+    max-width: 500px;
+    width: 445px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+
+.noah {
+    height: 675px;
+    flex-wrap: wrap;
+    width: auto;
+    border-radius: 13px;
+    border: 2px solid white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 4px;
+}
+
+.Sony {
+    color: #ddd;
+    text-align: center;
+}
+.Drone {
+    color: #ddd;
+    text-align: center;
+}
+.vids{
+    text-align: center;
+    height: 100vh;
+}
+
+/* Create a sticky/fixed navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 9px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 99%;
+    top: 0; /* At the top */
+    
+    overflow: hidden;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo */
+  #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+  }
+  
+  /* Links on mouse-over */
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link */
+  #navbar a.hover {
+    background-color: #ddd;
+    color: white;
+  }
+  
+  /* Display some links to the right */
+  #navbar-right {
+    float: right;
+  }
+  
+  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+
+  .fullscreen {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+
+
